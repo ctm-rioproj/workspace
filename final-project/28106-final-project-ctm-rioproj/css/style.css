@@ -13,6 +13,11 @@ header {
     box-shadow: 0 0 10px 0 #000;
 }
 
+header a {
+    color: #DDD;
+    text-decoration: none;
+}
+
 h1 {
     margin: 20px;
 }
@@ -47,6 +52,22 @@ h2 {
     border-bottom: 4px solid #ff9500;
 }
 
+main a {
+    color: #111724;
+    text-decoration: none;
+    font-weight: bold;
+    background: #DDD;
+    padding: 0px 3px 3px 3px;
+}
+
+main a:hover {
+    color: #DDD;
+    text-decoration: none;
+    font-weight: bold;
+    background: #3b100d;
+    padding: 0px 3px 3px 3px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -55,7 +76,12 @@ body {
 }
 
 li {
-    list-style: none;
+    padding: 5px 30px 5px 30px;
+    list-style: circle;
+}
+
+li:hover {
+    background-color: #1f283c;
 }
 
 main {
@@ -63,7 +89,7 @@ main {
     margin-right: auto;
     width: 1200px;
     padding: 20px 60px 20px 60px;
-    background: #111724fb;
+    background: #111724f7;
     box-shadow: 0 0 5px 0 #000;
     box-sizing: border-box;
     font-size: 16px;
@@ -102,8 +128,39 @@ aside img {
 }
 
 #home {
+    /** https://commons.wikimedia.org/wiki/File:2022_Missouri_train_derailment_overturned_railcars.png **/
     background: url("../images/2022_Missouri_train_derailment_overturned_railcars.png") no-repeat;
     background-size: cover;
+}
+
+#services {
+    /** https://commons.wikimedia.org/wiki/File:A_welder_using_an_angle_grinder_to_grind_steel.jpg **/
+    background: url("../images/A_welder_using_an_angle_grinder_to_grind_steel.jpg") no-repeat;
+    background-size: cover;
+}
+
+table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #0b0f1764;
+}
+
+.icon {
+    background: #1f283c;
+    width: 200px;
+}
+
+.desc {
+    padding: 15px;
+}
+
+tr {
+    border-bottom: medium solid #ff9500;
+}
+
+td img {
+    width: 200px;
 }
 
 /** Footer Styles **/
