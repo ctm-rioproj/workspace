@@ -17,18 +17,21 @@ h1 {
     margin: 20px;
 }
 
+/** Nav Styles **/
+
 #navbutton {
     float: left;
     margin-top: 8px;
     margin-left: 10px;
     background-color: #3b100d;
     padding: 5px 7px 5px 7px;
+    border: 1px solid #290a08;
 }
 
 nav {
     float: left;
-    background-color: #471713;
-    width: 150px;
+    background-color: #111724;
+    width: 200px;
 }
 
 nav a {
@@ -37,15 +40,61 @@ nav a {
     font-style: italic;
 }
 
+/** Main Styles **/
+
+h2 {
+    padding-bottom: 13px;
+    border-bottom: 4px solid #ff9500;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
     margin: 0;
     box-sizing: border-box;
+    color: #DDD;
 }
 
 li {
     list-style: none;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding: 20px 60px 20px 60px;
+    background: #111724fb;
+    box-shadow: 0 0 5px 0 #000;
+    box-sizing: border-box;
+    font-size: 16px;
+    min-height: 84vh;
+}
+
+.caption {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+aside {
+    background-color: #5b616333;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 20px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+aside img {
+    width: 100%;
+    object-fit: cover;
 }
 
 #wrapper {
@@ -55,4 +104,16 @@ li {
 #home {
     background: url("../images/2022_Missouri_train_derailment_overturned_railcars.png") no-repeat;
     background-size: cover;
+}
+
+/** Footer Styles **/
+
+footer {
+    text-align: center;
+    background-color: #340d0a;
+    color: #DDD;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 5px 0px 5px 0px;
 }

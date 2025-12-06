@@ -1,7 +1,12 @@
 function toggleNav() {
     var n = document.getElementsByTagName("nav")[0];
-    if(n.style.display == "none")
+    if(n.style.display == "none"){
         n.style.display = "block";
-    else
+        document.getElementById("navbutton").style.backgroundColor = "#240806";
+    }
+        
+    else {
+        document.getElementById("navbutton").style.backgroundColor = "#3b100d";
         n.style.display = "none";
+    }
 }
