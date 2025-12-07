@@ -52,7 +52,7 @@ h2 {
     border-bottom: 4px solid #ff9500;
 }
 
-main a {
+.link {
     color: #111724;
     text-decoration: none;
     font-weight: bold;
@@ -60,7 +60,7 @@ main a {
     padding: 0px 3px 3px 3px;
 }
 
-main a:hover {
+.link:hover {
     color: #DDD;
     text-decoration: none;
     font-weight: bold;
@@ -145,6 +145,12 @@ aside img {
     background-size: cover;
 }
 
+#volunteer {
+    /** https://commons.wikimedia.org/wiki/File:U_S_Service_Members_Volunteer_to_Repair_Muslim_Cemetery_on_Camp_Lemonnier_(9238466).jpg **/
+    background: url("../images/U_S_Service_Members_Volunteer_to_Repair_Muslim_Cemetery_on_Camp_Lemonnier_\(9238466\).jpg") no-repeat;
+    background-size: cover;
+}
+
 table {
     width: 80%;
     margin-left: auto;
@@ -169,6 +175,11 @@ td img {
     width: 200px;
 }
 
+.site-icon {
+    margin: 30px;
+    width: 50px;
+}
+
 /** Form Styles **/
 
 form {
@@ -176,7 +187,7 @@ form {
     background: #0b0f1764;
 }
 
-#firstname, #lastname, #emailaddr, #street {
+#firstname, #lastname, #emailaddr, #street, #cardname {
     width: 100%;
     box-sizing: border-box;
     margin: 10px 10px 20px 0px;
@@ -184,6 +195,10 @@ form {
 
 #phone {
     margin-bottom: 20px;
+}
+
+#cvv {
+    width: 50px;
 }
 
 #city, #state, #zip, #phone{

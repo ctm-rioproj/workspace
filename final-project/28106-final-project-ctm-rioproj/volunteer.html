@@ -7,12 +7,12 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Request Aid - Disaster Recovery Group</title>
+        <title>Volunteering - Disaster Recovery Group</title>
         <meta name="author" content="Cameron Moxley-Morris">
         <link rel="stylesheet" href="css/style.css" >
         <script src="scripts/script.js"></script>
     </head>
-    <body id="request-aid">
+    <body id="volunteer">
         <header>
             <!-- https://commons.wikimedia.org/wiki/File:Hamburger-menu_-_Delapouite_-_white_-_game-icons.svg -->
             <div id="navbutton" onclick="toggleNav();"><img src="images/Hamburger-menu_-_Delapouite_-_white_-_game-icons.png" style="width: 50px;"></div>
@@ -29,11 +29,11 @@
                 </ul>
             </nav>
             <main>
-                <h3>
-                    If you live in a town damaged by a recent weather patter or accident or would like to request aid of the Disaster Recovery Group, 
-                    please provide your information and submit this form.
-                </h3>
-                
+                <h2>Volunteer</h2>
+                <p>
+                    Most of our workforce is made up of volunteers who want to make a difference in their communities. If you would like to join our team, 
+                    submit the following form and a representative will get back to you in 2-5 business days.
+                </p>
                 <form action="https://secure.riosalado.edu/cis-course-resources/postscript.aspx" method="post">
                     <label for="firstname">First Name:</label>
                     <input type="text" name="FirstName" id="firstname"> 
@@ -57,22 +57,40 @@
                     <label for="state">State:</label>
                     <input type="text" name="State" id="state">
 
-                    <label for="zip">Postal Code:</label>
-                    <input type="text" name="ZIP" id="zip"> 
+                    <p>Preferred contact method</p>
+                    <label><input type="radio" name="contact" value="phone">Phone</label>
+                    <label><input type="radio" name="contact" value="email">Email</label>
                     <br>
                     <br>
-                    <label for="request">Please provide some information about your situation below.</label>
-                    <br>
-                    <textarea name="request" id="request"></textarea>
-                    <br>
-                    <button type="submit">Submit Form</button>
-                    <button type="reset">Reset Form</button>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
                 </form>
-                <br>
-                You can also contact us on the following sites:
-                <br>
-                <a href="https://x.com/"><img style="background: #DDD; padding: 5px;" class="site-icon" src="images/X_logo_2023.svg" alt="X.com Logo"></a>
-                <a href="https://facebook.com/"><img class="site-icon" src="images/2021_Facebook_icon.svg" alt="Facebook Logo"></a>
+                <p>
+                    Or, if you would like to contribute financially, choose a donation amount.
+                </p>
+                <form action="https://secure.riosalado.edu/cis-course-resources/postscript.aspx" method="post">
+                    <label><input type="radio" name="donate" value="25">$25.00</label>
+                    <label><input type="radio" name="donate" value="50">$50.00</label>
+                    <label><input type="radio" name="donate" value="100">100.00</label>
+                    <label><input type="radio" name="donate" value="500">$500.00</label>
+                    <label><input type="radio" name="donate" value="1000">$1000.00</label>
+                    <br><br>
+                    <label for="cardname">Name on card</label>
+                    <input type="text" name="CardName" id="cardname"> 
+
+                    <label for="cardnum">Card Number</label>
+                    <input type="text" name="CardNum" id="cardnum">
+                    <br><br>
+                    <label for="cvv">CVV</label>
+                    <input type="text" name="CVV" id="cvv">
+                    <br>
+                    <br>
+                    <label for="emailaddr">Email Address:</label>
+                    <input type="email" name="EmailAddr" id="emailaddr">
+
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
             </main>
         </div>
         <footer>
