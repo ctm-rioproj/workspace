@@ -27,7 +27,6 @@ h1 {
 #navbutton {
     float: left;
     margin-top: 8px;
-    margin-left: 10px;
     background-color: #3b100d;
     padding: 5px 7px 5px 7px;
     border: 1px solid #290a08;
@@ -36,7 +35,7 @@ h1 {
 nav {
     float: left;
     background-color: #111724;
-    width: 200px;
+    width: 100%;
 }
 
 nav a {
@@ -85,15 +84,11 @@ li:hover {
 }
 
 main {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    padding: 20px 60px 20px 60px;
+    padding: 40px 60px 20px 60px;
     background: #111724f7;
     box-shadow: 0 0 5px 0 #000;
     box-sizing: border-box;
     font-size: 16px;
-    min-height: 84vh;
 }
 
 .caption {
@@ -103,19 +98,17 @@ main {
 
 aside {
     background-color: #5b616333;
-    width: 400px;
+    width: 250px;
     box-sizing: border-box;
     padding: 10px;
-    margin-left: 5%;
-    margin-right: 20px;
 }
 
 .left {
-    float: left;
+    float: none;
 }
 
 .right {
-    float: right;
+    float: none;
 }
 
 aside img {
@@ -213,7 +206,7 @@ form {
 }
 
 #request {
-    width: 50%;
+    width: 100%;
     min-height: 200px;
     margin-top: 10px;
     margin-bottom: 10px;
