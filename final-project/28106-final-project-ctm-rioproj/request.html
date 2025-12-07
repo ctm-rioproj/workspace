@@ -1,0 +1,81 @@
+<!--
+    Course: CIS133DA
+    Section: #28106
+    Final Project
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Request Aid - Disaster Recovery Group</title>
+        <meta name="author" content="Cameron Moxley-Morris">
+        <link rel="stylesheet" href="css/style.css" >
+        <script src="scripts/script.js"></script>
+    </head>
+    <body id="request-aid">
+        <header>
+            <!-- https://commons.wikimedia.org/wiki/File:Hamburger-menu_-_Delapouite_-_white_-_game-icons.svg -->
+            <div id="navbutton" onclick="toggleNav();"><img src="images/Hamburger-menu_-_Delapouite_-_white_-_game-icons.png" style="width: 50px;"></div>
+            <h1><a href="index.html">Disaster Recovery Group</a></h1>
+        </header>
+        <div id="wrapper">
+            <nav style="display: none;">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="volunteer.html">Volunteer</a></li>
+                    <li><a href="request.html">Request Aid</a></li>
+                </ul>
+            </nav>
+            <main>
+                <h3>
+                    If you live in a town damaged by a recent weather patter or accident or would like to request aid of the Disaster Recovery Group, 
+                    please provide your information and submit this form.
+                </h3>
+                
+                <form action="https://secure.riosalado.edu/cis-course-resources/postscript.aspx" method="post">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="FirstName" id="firstname"> 
+
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="LastName" id="lastname">
+
+                    <label for="emailaddr">Email Address:</label>
+                    <input type="email" name="EmailAddr" id="emailaddr"> 
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" name="Phone" id="phone">
+                    <br>
+
+                    <label for="street">Street Address:</label>
+                    <input type="text" name="Address" id="street"> 
+
+                    <label for="city">City:</label>
+                    <input type="text" name="City" id="city">
+
+                    <label for="state">State:</label>
+                    <input type="text" name="State" id="state">
+
+                    <label for="zip">Postal Code:</label>
+                    <input type="text" name="ZIP" id="zip"> 
+                    <br>
+                    <br>
+                    <label for="request">Please provide some information about your situation below.</label>
+                    <br>
+                    <textarea name="request" id="request"></textarea>
+                    <br>
+                    <button type="submit">Submit Form</button>
+                    <button type="reset">Reset Form</button>
+                </form>
+            </main>
+        </div>
+        <footer>
+            <p>
+                <small>
+                    Copyright by CAM2137914 &copy; 2025
+                </small>
+            </p>
+        </footer>
+    </body>
+</html>

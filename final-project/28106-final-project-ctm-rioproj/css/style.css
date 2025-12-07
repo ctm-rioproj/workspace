@@ -139,6 +139,12 @@ aside img {
     background-size: cover;
 }
 
+#request-aid {
+    /** https://commons.wikimedia.org/wiki/File:Downed_power_lines_near_New_Caney,_TX,_after_Hurricane_Beryl.jpg **/
+    background: url("../images/Downed_power_lines_near_New_Caney\,_TX\,_after_Hurricane_Beryl.jpg") no-repeat;
+    background-size: cover;
+}
+
 table {
     width: 80%;
     margin-left: auto;
@@ -161,6 +167,35 @@ tr {
 
 td img {
     width: 200px;
+}
+
+/** Form Styles **/
+
+form {
+    padding: 40px;
+    background: #0b0f1764;
+}
+
+#firstname, #lastname, #emailaddr, #street {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 10px 20px 0px;
+}
+
+#phone {
+    margin-bottom: 20px;
+}
+
+#city, #state, #zip, #phone{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+#request {
+    width: 50%;
+    min-height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /** Footer Styles **/
